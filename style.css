@@ -1,0 +1,61 @@
+#navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    border: solid 1px black;
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(128, 128, 128);
+}
+
+.options 
+{
+ display: flex; 
+ justify-content: center;
+ list-style-type: none;
+ color:blue
+}
+
+.options h3
+{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+input 
+{
+background: transparent;
+border-radius: 100px;
+/* border: none; */
+font-size: 17px;
+outline: none;
+height: 50px;
+width: 600px;
+margin-top: 5px;
+text-align: center;
+background-color: rgb(228, 215, 215);
+}
+
+#submit
+{
+height: 50px;
+width: 100px;
+margin-top: 5px;
+}
+
+#data 
+{
+display: grid;
+width: 1200px;
+padding: 2%;
+font-size: 20px;
+}
+
+img
+{
+display: grid;
+width: 300px;
+height: 200px;
+}
